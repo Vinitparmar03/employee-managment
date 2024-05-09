@@ -1,0 +1,91 @@
+/* AddEmployee.css */
+
+.add-employee-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.add-employee-form .form-container {
+  width: 400px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-employee-form .form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-employee-form input[type="text"],
+.add-employee-form input[type="number"],
+.add-employee-form input[type="email"],
+.add-employee-form select,
+.add-employee-form .checkbox-group {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-employee-form .radio-group {
+  margin-bottom: 10px;
+}
+
+.add-employee-form .radio-group label {
+  margin-right: 20px;
+}
+
+.add-employee-form .checkbox-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.add-employee-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-employee-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.add-employee-form .file-upload {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-employee-form .file-upload input[type="file"] {
+  display: none;
+}
+
+.add-employee-form .file-upload label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-employee-form .file-upload label:hover {
+  background-color: #0056b3;
+}
+
+.add-employee-form .file-upload label::before {
+  content: "Upload Image";
+}

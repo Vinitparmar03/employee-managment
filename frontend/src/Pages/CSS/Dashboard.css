@@ -1,0 +1,10 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
