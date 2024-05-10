@@ -38,7 +38,13 @@ To download and use Exclusive E-Commerce:
 
 1. Clone the repository: `git clone https://github.com/Vinitparmar03/employee-managment`
 2. Install dependencies in directory where you clone this and run this command in both Frontend and Backend: `npm install`
-3. Start the application by run this command in both Backend and Frontend: `npm run dev`
+3. You need to make .env file in both backend root directory and add following data:
+    - MONGO_URI=mongodb://localhost:27017
+    - JWT_SECRET=terebhaijaisahardhichnahihaibhaibhai
+    - PORT=5000
+
+    - SECRET_KEY = as678f3j4g5213
+5. Start the application by run this command in both Backend and Frontend: `npm run dev`
 
 ## Usage
 
