@@ -14,8 +14,7 @@ This is a simple Employee Management System where users can sign up, log in, and
   - MongoDB (for database)
   - bcrypt (for password hashing)
 - Frontend:
-  - HTML/CSS/JavaScript (for basic user interface)
-  - Bootstrap (for styling)
+  - Reactjs (for basic user interface and styling)
 
 
 ## Features
